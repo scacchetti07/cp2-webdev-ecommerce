@@ -2,7 +2,7 @@ import React from 'react'
 
 function ShoppingCart() {
   return (
-    <div>ShoppingCart</div>
+    <div>Pode comprar nao D:</div>
   )
 }
 

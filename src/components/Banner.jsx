@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Banner() {
+function Banner({title}) {
   return (
-    <div>Banner</div>
+    <div className='bg-yellow-400 w-full p-10 m-10 rounded-xl font-bold'><p>{title}</p></div>
   )
 }
 

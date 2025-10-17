@@ -2,7 +2,7 @@ import React from 'react'
 
 function Profile() {
   return (
-    <div>Profile</div>
+    <div>Seu Perfil aqui esta em construção</div>
   )
 }
 

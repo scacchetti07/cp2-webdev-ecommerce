@@ -3,6 +3,7 @@ import Layout from "../Layout";
 import Home from "../pages/Home"
 import Profile from "../pages/Profile"
 import ShoppingCart from "../pages/ShoppingCart";
+import Product from "../pages/Product";
 
 const router = createBrowserRouter([
     {
@@ -10,7 +11,8 @@ const router = createBrowserRouter([
         element: <Layout />,
         children: [
             {index: true, element: <Home />},
-            {path: "profile/:id", element: <Profile />},
+            {path: "profile", element: <Profile />},
+            {path: "product/:id", element: <Product />},
             {path: "carts", element: <ShoppingCart />}
         ]
     }
